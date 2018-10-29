@@ -1,6 +1,6 @@
 # DelimitedQueryStringValueProvider.AspNetCore
 
-A value provider that allows to specify multiple delimited values under one key
+A value provider that allows to specify multiple delimited values in a query string key
 
 ## Usage
 

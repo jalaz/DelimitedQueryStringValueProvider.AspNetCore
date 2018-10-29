@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace DelimitedQueryStringValueProvider
+namespace DelimitedQueryStringValueProvider.AspNetCore
 {
     public static class ValueProviderFactoriesExtensions
     {

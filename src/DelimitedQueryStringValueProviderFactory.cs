@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace DelimitedQueryStringValueProvider
+namespace DelimitedQueryStringValueProvider.AspNetCore
 {
     public class DelimitedQueryStringValueProviderFactory : IValueProviderFactory
     {

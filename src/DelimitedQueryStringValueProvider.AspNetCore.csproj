@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <PackageId>$(AssemblyName)</PackageId>
+    <PackageTags>AspNetCore</PackageTags>
+    <Version>0.0.2</Version>
+    <Authors>Alex Aza</Authors>
+    <PackageProjectUrl>https://github.com/jalaz/DelimitedQueryStringValueProvider.AspNetCore</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/jalaz/DelimitedQueryStringValueProvider.AspNetCore</RepositoryUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/jalaz/DelimitedQueryStringValueProvider.AspNetCore/master/LICENSE</PackageLicenseUrl>
+    <RepositoryType>git</RepositoryType>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <IncludeSymbols>false</IncludeSymbols>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.1.3" />
+  </ItemGroup>
+</Project>
